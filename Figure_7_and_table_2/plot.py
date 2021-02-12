@@ -46,7 +46,7 @@ for job in [
 
             ]:
     val = False
-    file1 = open('/home/pezeshki/scratch/GS/overparam_spur_corr/' + job + '/log.txt', 'r')
+    file1 = open('/home/user/scratch/GS/' + job + '/log.txt', 'r')
     Lines = file1.readlines()
     accs[job] = []
     avgs[job] = []
